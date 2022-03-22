@@ -28,7 +28,7 @@ checkButton.addEventListener('click', () => {
     }
   } else {
     message.textContent = 'Sorry, you lost🙁';
-    document.querySelector('body').style.backgroundColor = 'red';
+    document.querySelector('body').style.backgroundColor = 'rgb(248, 8, 8)';
   }
 });
 
